@@ -5,6 +5,7 @@ from azure.ai.projects.models import CodeInterpreterTool, BingGroundingTool, Too
 from azure.identity import DefaultAzureCredential
 from pathlib import Path
 
+#Initialize all the requried tools and return a toolset
 def initialize_tools():
      # Create bing grounding tool
      bing_connection = project_client.connections.get(
