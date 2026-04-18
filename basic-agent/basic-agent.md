@@ -78,3 +78,5 @@ The script can generate:
 - Checks for run failures
 - Validates message responses
 - Ensures proper cleanup of resources
+
+## Observabillity
